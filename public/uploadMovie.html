@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UploadMovie</title>
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <div class="container-fluid" style="padding: 2em;">
+        <div class="row">
+            <div class="col-sm-2">
+                <img src="../images/logo.png" alt="movie shop logo">
+            </div>
+        </div>
+
+        <div class="alert alert-info" role="alert">
+            Real and Reel: Buy One get Two Free
+        </div>
+
+        <div class="row">
+            <button type="button" class="btn btn-primary" onclick="location.href='../index.html'">Back to HomePage</button>
+        </div>
+
+        <br>
+
+        <form action="" method="post" class="form">
+            <div class="form-group">
+
+                <div class="form-row">
+                    <div class="col-sm">
+                        <label class="control-label" class= "control-label" for="mvname">Movie Name </label class="control-label">
+                        <br>
+                        <input type="text" class="form-control" placeholder="Movie Name" name="mvname">    
+                    </div>
+                    <div class="col-sm">
+                        <label class="control-label">Lead Actor</label class="control-label">
+                        <br>
+                        <input type="text" class="form-control" placeholder="Lead Actor">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-sm">
+                        <label class="control-label">Duration</label class="control-label">
+                        <br>
+                        <input type="number" class="form-control"  name="time" id="time" placeholder="Time in Hours">
+                    </div>
+                    <div class="col-sm">
+                        <label class="control-label">Movie Poster</label class="control-label">
+                        <br>
+                        <input type="file" class="form-control" name="upload" id="upload">
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="col-sm">
+                        <label class="control-label">Rating</label class="control-label">
+                        <br>
+                        <input type="text" class="form-control" placeholder="PG">
+                    </div>
+                    <div class="col-sm">
+                        <label class="control-label">Genre</label class="control-label">
+                        <br>
+                        <input type="text" class="form-control" placeholder="Action">
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="form-row">
+                    <div class="col-sm">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Submit Movie</button>
+                    </div>
+                    <div class="col-sm">
+                        <button type="reset" class="btn btn-danger btn-lg btn-block">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

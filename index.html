@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid" style="padding: 2em;">
+        <div class="row">
+            <div class="col-sm-2">
+                <img src="images/logo.png" alt="movie shop logo">
+            </div>
+        </div>
+
+        <div class="alert alert-info" role="alert">
+            Real and Reel: Buy One get Two Free
+        </div>
+ 
+        <div class="row">
+            <button type="button" class="btn btn-primary" onclick="location.href='public/uploadMovie.html'">Upload Movie</button>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <table class="table table-hover" style="width: 100%;">
+                <thead>
+                    <th>#</th>
+                    <th>Movie Name</th>
+                    <th>Time</th>
+                    <th>Lead Actor</th>
+                    <th>Movie Poster</th>
+                    <th>Genre</th>
+                    <th>Rating</th>
+                    <th>Actions</th>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Avengers Endgame</td>
+                        <td>2hrs</td>
+                        <td>Robert Jr</td>
+                        <td><a href="images/mov2.jpg"><img class="img-thumbnail" src="images/mov2.jpg" alt="Avengers Endgame" width="20%"></a></td>
+                        <td>Action Sci-Fi</td>
+                        <td>PG</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">Edit</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td>2</td>
+                        <td>No Time To Die</td>
+                        <td>2hrs 43min</td>
+                        <td>James Bond</td>
+                        <td><a href="images/mov1.jpg"><img class="img-thumbnail" src="images/mov1.jpg" alt="Avengers Endgame" width="20%"></a></td>
+                        <td>Action Drama</td>
+                        <td>PG</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">Edit</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>  
+    </div>
+</body>
+
+</html>
